@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_dialogMain"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:background="#ffffff">
+
+
+
+        <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:tag="200"
+            android:text="Alert"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <View
+            android:id="@+id/viewline"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/txtHeader"
+            android:background="#999999" />
+
+          <ImageView
+              android:layout_width="270dp"
+              android:layout_height="200dp"
+              android:layout_below="@+id/viewline"
+              android:scaleType="centerCrop"
+              android:id="@+id/img_1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_1"
+            android:id="@+id/len_1"
+            android:padding="5dp"
+            android:weightSum="4"
+            android:orientation="horizontal">
+
+            <Uc.EspTextView
+                style="@style/MaterialIconsRegular"
+                android:text="@string/ic_image"
+                android:layout_weight="1"
+                android:id="@+id/txt_image"
+                 />
+
+            <Uc.EspTextView
+                style="@style/MaterialIconsRegular"
+                android:text="@string/ic_phone"
+                android:layout_weight="1"
+                android:id="@+id/txt_call"
+                />
+            <Uc.EspTextView
+                style="@style/MaterialIconsRegular"
+                android:text="@string/ic_video"
+                android:layout_weight="1"
+                android:id="@+id/txt_video"
+                />
+            <Uc.EspTextView
+                style="@style/MaterialIconsRegular"
+                android:text="@string/ic_info"
+                android:layout_weight="1"
+                android:id="@+id/txt_info"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_profile_activiry">ViewProfileActiviry</string>
+
+    <string name="ic_image">&#xE251;</string>
+    <string name="ic_phone">&#xE0CD;</string>
+    <string name="ic_video">&#xE04B;</string>
+    <string name="ic_info">&#xE88F;</string>
+    <string name="ic_send">&#xE163;</string>
+    <string name="ic_delete">&#xE872;</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_chat2">ChatActivity2</string>
+</resources>

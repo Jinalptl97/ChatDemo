@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "253912119471",
+    "firebase_url": "https://chat-b8a9e.firebaseio.com",
+    "project_id": "chat-b8a9e",
+    "storage_bucket": "chat-b8a9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253912119471:android:8ff0a802fbfda7eb",
+        "android_client_info": {
+          "package_name": "com.example.krunal.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253912119471-hqg7rjkmsn8rr8baqk2qtm4o5s9k7j9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzhqjNi9dYW5bt3KMfcTF6nGBabI498qk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
